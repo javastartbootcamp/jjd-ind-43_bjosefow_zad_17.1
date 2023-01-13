@@ -45,7 +45,7 @@ class PaymentServiceTest {
         List<Payment> paymentsForCurrentMonth = paymentService.findPaymentsForCurrentMonth();
 
         // then
-        assertThat(paymentsForCurrentMonth.size()).isEqualTo(2);
+         assertThat(paymentsForCurrentMonth.size()).isEqualTo(2);
     }
 
     @Test
